@@ -1,0 +1,231 @@
+<html>
+
+<head>
+  <title>
+    Parivartan
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+
+  <script src="https://code.responsivevoice.org/responsivevoice.js?key=OO0U3GC6"></script>
+  <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo">
+      <img alt="Government of India Emblem" height="50" src="./assets/logo.png" />
+    </div>
+    <div class="right-title">
+      <div class="icons">
+        <i class="fas fa-book"><br>Help</i>
+        <i class="fas fa-cogs"><br> Setting</i>
+        <!-- <i class="fas fa-university"></i> -->
+        <i class="fas fa-users"><br>Contact</i>
+        <!-- <i class="fas fa-globe"><br> gy</i> -->
+      </div>
+    </div>
+    <div id="google_translate_element"></div>
+  </div>
+  </div>
+  <!-- <div class="container">
+    
+    <label for="languageSelect">Select Language:</label>
+    <select id="languageSelect">
+        <option value="en-US">English</option>
+        <option value="hi-IN">Hindi</option>
+    </select>
+    <br><br>
+
+    <button onclick="readContent()">Read All Content</button>
+    <button onclick="stopSpeech()">Stop Reading</button>
+</div> -->
+
+
+  <div class="search-bar">
+    <input placeholder="Search - Keyword, Phrase" type="text" />
+    <button>
+      Search
+    </button>
+  </div>
+  <div class="carousel">
+    <input type="radio" name="carousel" id="slide1" checked>
+    <input type="radio" name="carousel" id="slide2">
+    <input type="radio" name="carousel" id="slide3">
+    <input type="radio" name="carousel" id="slide4">
+    <input type="radio" name="carousel" id="slide5">
+
+    <div class="slides">
+      <div class="slide" id="s1">
+        <img src="./assets/2.webp" alt="img1">
+      </div>
+      <div class="slide" id="s2">
+        <img src="./assets/1.webp" alt="img2">
+      </div>
+      <div class="slide" id="s3">
+        <img src="./assets/3.webp" alt="img3">
+      </div>
+      <div class="slide" id="s4">
+        <img src="./assets/4.webp" alt="img4">
+      </div>
+      <div class="slide" id="s5">
+        <img src="./assets/5.webp" alt="img5">
+      </div>
+    </div>
+    <div class="navigation">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+      <label for="slide4"></label>
+      <label for="slide5"></label>
+    </div>
+  </div>
+  </div>
+  <div class="main-content">
+    <div class="banner">
+      <img alt="Jeevan Pramaan Logo" height="100"
+        src="https://storage.googleapis.com/a1aa/image/B0J7JPC6mO7wAlDUtPtjEmRf8Gq8pYkYuZawomw1q1oURw8JA.jpg"
+        width="100" />
+      <div class="text">
+        <h2>
+          JEEVAN PRAMAAN
+        </h2>
+        <p>
+          Digital Life certificate for pensioners
+        </p>
+      </div>
+    </div>
+    <div class="container2">
+      <h1>ACT & RULES</h1>
+
+      <div class="grid">
+        <div class="card">
+          <div class="card-title">Policy</div>
+          <a href="#" class="card-link">Click here</a>
+        </div>
+        <div class="card">
+          <div class="card-title">Integrated Nutrient Management</div>
+          <a href="#" class="card-link">Click here</a>
+        </div>
+        <div class="card">
+          <div class="card-title">Agricultural Marketing</div>
+          <a href="#" class="card-link">Click here</a>
+        </div>
+        <div class="card">
+          <div class="card-title">Agricultural Marketing</div>
+          <a href="#" class="card-link">Click here</a>
+        </div>
+        <div class="card">
+          <div class="card-title">Agricultural Marketing</div>
+          <a href="#" class="card-link">Click here</a>
+        </div>
+        <div class="card">
+          <div class="card-title">Agricultural Marketing</div>
+          <a href="#" class="card-link">Click here</a>
+        </div>
+      </div>
+    </div>
+    <div class="sections">
+      <div class="section">
+        <h3>
+          News Highlights
+        </h3>
+        <ul>
+          <li>
+            <a href="#">
+              Union Home Minister and Minister of Cooperation Shri Amit Shah...
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Union Cabinet Approves Signing of MoU between GSI and CNR-IRPI...
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <h3>
+          Most Requested Information &amp; Forms
+        </h3>
+        <ul>
+          <li>
+            <a href="#">
+              Commissionerate of Municipal Administration of Tamil Nadu
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Website of Council of Scientific and Industrial Research
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Report on trend and progress of banking in India
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Website of National Innovation Foundation
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <h3>
+          Activities &amp; Initiatives
+        </h3>
+        <ul>
+          <li>
+            <a href="https://www.ncbmanas.gov.in/" target="_blank">
+              MANAS - National Narcotics Helpline
+            </a>
+          </li>
+          <li>
+            <a href="https://pmfby.gov.in/" target="_blank">
+              Pradhan Mantri Fasal Bima Yojana (PMFBY)
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="sticky-bottom-right chatbot">
+    <i class="fas fa-robot"></i>
+  </div>
+
+  <div class="footer">
+    © 2024 PARIVARTAN. All rights reserved.
+  </div>
+  <div class="chatbox" style="display: none;">
+    <div class="header_chatbox">
+      <button class="close_chatbox"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="messages">
+      <div class="bot">Hi, I am a Krishi Chatbot, You can ask anything related to farming with me.
+        I am ready, put your questions.
+      </div>
+    </div>
+    <div class="inputs">
+      <form action="">
+        <input type="text" placeholder="type your query..." class="query" name="query" id="query">
+        <button class="send"><i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </div>
+  <script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+        { pageLanguage: 'en' },
+        'google_translate_element'
+      );
+    }
+  </script>
+  <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>
